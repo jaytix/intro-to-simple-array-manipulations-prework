@@ -12,7 +12,9 @@ end
 
 def using_pop_with_args(array)
   arr = []
-  arr.push(array.pop)
-  arr.push(array.pop)
+  ele = array.pop
+  arr.push(ele)
+  ele2 = array.pop
+  arr.push(ele2)
   arr
 end  
