@@ -9,3 +9,10 @@ end
 def using_pop(array)
   array.pop
 end
+
+def using_pop_with_args(array)
+  arr = []
+  arr.push(array.pop)
+  arr.push(array.pop)
+  arr
+end  
